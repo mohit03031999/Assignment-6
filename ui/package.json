@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooja97/assignment6.git"
+    "url": "git+https://github.com/mohit03031999/Assignment-6.git"
   },
   "author": "Pooja Yadav",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pooja97/assignment6/issues"
+    "url": "https://github.com/mohit03031999/Assignment-6/issues"
   },
-  "homepage": "https://github.com/pooja97/assignment6#readme",
+  "homepage": "https://github.com/mohit03031999/Assignment-6#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.4.1",
