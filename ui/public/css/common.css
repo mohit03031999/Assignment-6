@@ -1,0 +1,94 @@
+/* Common css to be included in all the files */
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  position: relative;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Buttons */
+
+.button {
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.button.button-dark {
+  background-color: #676565;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button.button-dark:hover {
+  background-color: #464343;
+  box-shadow: 0px 5px 15px -5px #464343;
+}
+
+.button.button-dark:active {
+  background-color: #676565;
+  transition: none;
+}
+
+.button.button-dark:focus {
+  outline: none;
+}
+
+.button.button-dark:focus-visible {
+  outline: 2px solid black;
+}
+
+/* Buttons Ends */
+
+/* Dark Bootstrap Panel */
+.panel-dark .panel-heading {
+  background-color: #676565;
+  color: white;
+}
+
+/* Dark Bootstrap Panel Ends */
+
+/* Extra Css */
+.label {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: left;
+}
+
+a.active {
+  background-color: #D8D8F5;
+}
+
+.panel-title a {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.table-dark thead {
+  background-color: #676565;
+  color: white;
+}
+
+/* Extra Css Ends */

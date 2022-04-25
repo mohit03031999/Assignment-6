@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.custom-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.custom-form .form-element {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
+}
+
+.custom-form label {
+  margin-bottom: 10px;
+}
+
+.custom-form input,
+.custom-form select {
+  width: 200px;
+  padding: 5px;
+}
+
+.button, .form-element-select, .form-element-input {
+  margin-top: 10px;
+}
+
+/* Media queries for mid-size devices or smaller */
+@media (max-width: 768px) {
+  .custom-form {
+    flex-flow: column;
+  }
+}

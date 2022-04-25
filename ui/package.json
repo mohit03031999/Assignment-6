@@ -1,0 +1,57 @@
+{
+  "name": "assignment5-ui",
+  "version": "1.0.0",
+  "description": "MERN Stack Assignment 5 UI",
+  "main": "index.js",
+  "scripts": {
+    "#start": "To start UI server. HMR is enabled in dev mode.",
+    "start": "npm run compile && nodemon -w uiserver.js -w .env uiserver.js",
+    "#lint": "Runs ESLint on all relevant files",
+    "lint": "eslint . --ext js,jsx --ignore-pattern public",
+    "#compile": "Generates JS bundles for production. Use with start.",
+    "compile": "webpack --mode production",
+    "#watch": "Compile, and recompile on any changes.",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooja97/assignment6.git"
+  },
+  "author": "Pooja Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pooja97/assignment6/issues"
+  },
+  "homepage": "https://github.com/pooja97/assignment6#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^3.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^0.33.1",
+    "react-dom": "^17.0.2",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "url-search-params": "^1.1.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
